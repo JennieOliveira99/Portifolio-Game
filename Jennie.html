@@ -15,15 +15,15 @@
     </script>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark py-1">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mim</a></li>
             <li class="nav-item"><a class="nav-link" href="#habilidades">Javascript</a></li>
         </ul>
     </nav>
-    <main class="container">
+    <main class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="  col-sm-8 col-md-8 col-10 "> 
                 <article>
                     <h1 class="titulos">Titulo</h1>
                     <p class="textos">
@@ -39,10 +39,10 @@
                     <button class="btn btn-primary" onclick="iniciarDesarmamento()">Meu primeiro projeto ></button>
                 </article>
             </div>
-            <div class="col-md-6">
-                <section>
-                    <img id="jenn-image" src="img/imagem12.png" alt="Descrição da imagem" class="img-fluid">
-                </section>
+            <div class=" col-md-4 col-sm-4 col-10">
+                <aside>
+                    <img id="jenn-image" src="img/imagem12.png" width="200" height="235" alt="Descrição da imagem" class="img-fluid">
+                </aside>
             </div>
         </div>
         <!-- Div para exibir mensagens -->
@@ -63,8 +63,48 @@
                 <a href="https://www.google.com/" target="_blank"><button>Saber Mais</button></a>
             </div>
         </div>
+
+
+        <div class="card-container row">
+            <div class="col-md-4 mb-4"> <!-- Adicionei a classe "mb-4" para adicionar margem inferior entre os cards -->
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="/img/imagem12.png" alt="Imagem Tokyo" class="img-fluid">
+                    </div>
+                    <div class="content">
+                        <div>
+                            <a href="site aqui"><h2>Captor Card Game</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="/img/imagem12.png" alt="Imagem Kyoto" class="img-fluid">
+                    </div>
+                    <div class="content">
+                        <div>
+                            <a href="site aq"><h2>RPG Game</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="/img/imagem12.png" alt="Imagem Hiroshima" class="img-fluid">
+                    </div>
+                    <div class="content">
+                        <div>
+                            <a href="site aq"><h2>Skate Game</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="fixed-bottom bg-dark text-light text-center py-2">
+    <footer class="fixed-bottom bg-dark text-light text-center py-1">
         <p>&copy; 2023 Meu Site</p>
     </footer>
 </body>

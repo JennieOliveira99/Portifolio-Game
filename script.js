@@ -1,3 +1,4 @@
+//Função do desarme a bomba
 function iniciarDesarmamento() {
     // Exibe a mensagem ao clicar no botão
     document.getElementById('mensagem').innerHTML = 'Desarme a bomba...';
@@ -34,3 +35,5 @@ function iniciarDesarmamento() {
         }
     }, 1000);
 }
+
+
