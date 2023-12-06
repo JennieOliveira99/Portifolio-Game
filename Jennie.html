@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script>
+
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mim</a></li>
+            <li class="nav-item"><a class="nav-link" href="#habilidades">Javascript</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <article>
+                    <h1 class="titulos">Titulo</h1>
+                    <p class="textos">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt illum, 
+                        ex harum nihil ipsam ullam deleniti enim voluptate quaerat, alias repellat iste amet quae beatae.
+                        Ad consequuntur a doloremque fugiat?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt illum, 
+                        ex harum nihil ipsam ullam deleniti enim voluptate quaerat, alias repellat iste amet quae beatae.
+                        Ad consequuntur a doloremque fugiat?
+                        Lorem ipsum d
+                    </p>
+                    <!-- Botão para desarmar a bomba -->
+                    <button class="btn btn-primary" onclick="iniciarDesarmamento()">Meu primeiro projeto ></button>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <section>
+                    <img id="jenn-image" src="img/imagem12.png" alt="Descrição da imagem" class="img-fluid">
+                </section>
+            </div>
+        </div>
+        <!-- Div para exibir mensagens -->
+        <div id="mensagem"></div>
+
+        <!-- Div para exibir o cronômetro pop-up -->
+        <div id="popupCronometro" class="popup" style="display: none;">
+            <h2>Desarme a bomba</h2>
+            <div id="cronometroPopUp">00:04</div>
+        </div>
+
+        <!-- Div para exibir a imagem pop-up -->
+        <div id="popupImagem" class="popup" style="display: none;">
+            <h2>Bomba Desarmada!</h2>
+            <p>Você acaba de ver meu primeiro projeto em Javascript!</p>
+            <div class="btn-div">
+                <a href="Jennie.html"><button>Voltar</button></a>
+                <a href="https://www.google.com/" target="_blank"><button>Saber Mais</button></a>
+            </div>
+        </div>
+    </main>
+    <footer class="fixed-bottom bg-dark text-light text-center py-2">
+        <p>&copy; 2023 Meu Site</p>
+    </footer>
+</body>
+</html>
